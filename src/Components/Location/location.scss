@@ -1,0 +1,104 @@
+:root{
+    --thm-font: 'Outfit', 'Inter', sans-serif;
+    --thm-headline-font: 'Outfit', 'Inter', sans-serif;
+    --thm-base: #ffffff;
+    --thm-base-rgb: 255, 255, 255;
+    --thm-primary: #FF6525;
+    --thm-primary-rgb: 252, 60, 60;
+    --thm-secondary: #0000fe;
+    --thm-secondary-rgb: 0, 0, 254;
+    --thm-border: #EBF2F3;
+    --text-color: hsl(240, 1%, 48%);
+  }
+
+  .location{
+    display: block;
+    padding: 120px 0 120px;
+
+    .secContainer{
+        .secIntro{
+            justify-content: space-between;
+
+            .secTitle{
+                p{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: var(--thm-primary);
+                    position: relative;
+                }
+                h2{
+                    color: #000;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 1.125;
+                    padding: 15px 0px 20px;
+                }
+            }
+
+            .secSlider{
+                button{
+                    width: 60px;
+                    height: 60px;
+                    font-size: 18px;
+                    line-height: 60px;
+                    margin-left: 25px;
+                    text-align: center;
+                    border-radius: 100%;
+                    display: inline-block;
+                    border: 2px solid #ff5520;
+                    transition: 0.3s all ease-in-out;
+                }
+            }
+        }
+        .mainContent{
+            gap: 1rem;
+
+            .destination-single{
+                position: relative;
+                border-radius: 10px;
+                overflow: hidden;
+                display: block;
+                box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+                margin: 0 auto 2rem;
+
+                .destination-img{
+                    position: relative;
+                    display: block;
+                    transform: translateY(0px);
+                    -webkit-transition: all 500ms ease;
+                    transition: all 500ms ease;
+
+                    img{
+                        height: 100%;
+                    }
+                }
+                .destination-content{
+                    padding: 10px;
+                    background: #ffffff;
+                    overflow: hidden;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 50%;
+                    width: 90%;
+                    transform: translateX(-50%);
+                    border-radius: 10px;
+                    transition: all .3s;
+
+                    .content-left{
+                        float: left;
+                    }
+                    .content-right{
+                        float: right;
+                    }
+                }
+                .destination-btn{
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                    opacity: 0;
+                    transition: all 500ms ease;
+                }
+            }
+        }
+    }
+  }

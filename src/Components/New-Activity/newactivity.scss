@@ -1,0 +1,142 @@
+:root{
+    --thm-font: 'Outfit', 'Inter', sans-serif;
+    --thm-headline-font: 'Outfit', 'Inter', sans-serif;
+    --thm-base: #ffffff;
+    --thm-base-rgb: 255, 255, 255;
+    --thm-primary: #FF6525;
+    --thm-primary-rgb: 252, 60, 60;
+    --thm-secondary: #0000fe;
+    --thm-secondary-rgb: 0, 0, 254;
+    --thm-border: #EBF2F3;
+}
+.activites{
+    padding-top: 5rem;
+}
+.sec-header{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.section-title{
+    color: black;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}    
+.textDiv p{    
+    font-size: 13px;
+    color: var(--thm-base);
+    font-weight: 500;
+}
+.mainContents{
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.cards{
+    padding: 18px;
+    gap: 1rem;
+    box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+    border-radius: 1rem;
+}       
+.section-img{
+    overflow: hidden;
+    border-radius: 0.5rem;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.priceContent{
+    justify-content: space-between;
+    line-height: 2.5rem;
+}           
+.activity-features-3{
+    flex-wrap: wrap;
+}
+.icon-text{
+    gap: 0.25rem;
+    margin: 5px;
+    background-color: #eef1f5;
+    padding: 2px 6px 2px 4px;
+    border-radius: 20px;
+    color: #677283;
+}
+.icon-text{
+    display: flex;
+    font-size: 12px;
+}
+.icons1{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-contents{
+    gap: 1rem;
+    margin-top: 10px;
+    align-items: center;
+}                
+.footer-img{
+    width: 35px !important;
+    height: 35px !important;
+    overflow: hidden !important;
+    margin-right: 10px !important;
+    margin-top: 5px !important;
+    border-radius: 100% !important;
+}
+.footer-content{
+    display: inline-grid;
+    gap: 0;
+    font-size: 14px;
+}                
+.footerbtn button{
+    border: 2px solid #FF6525;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-grid;
+
+    &:hover{
+        background-color: #FF6525;
+        color: #ffffff;
+    }
+}                   
+.section-slider{
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+        margin-left: 25px;
+        text-align: center;
+        border-radius: 100%;
+        display: inline-block;
+        border: 2px solid #ff5520;
+        transition: 0.3s all ease-in-out;
+    }
+}
+.new-activity-title{
+    span{
+    font-size: 18px;
+    font-weight: 700; 
+    color: var(--thm-primary);
+    position: relative;
+    }
+    h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.125;
+    padding: 15px 0px 20px;
+    }
+}            
+                
+
+
+                

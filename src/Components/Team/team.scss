@@ -1,0 +1,29 @@
+:root{
+    --thm-font: 'Outfit', 'Inter', sans-serif;
+    --thm-headline-font: 'Outfit', 'Inter', sans-serif;
+    --thm-base: #ffffff;
+    --thm-base-rgb: 255, 255, 255;
+    --thm-primary: #FF6525;
+    --thm-primary-rgb: 252, 60, 60;
+    --thm-secondary: #0000fe;
+    --thm-secondary-rgb: 0, 0, 254;
+    --thm-border: #EBF2F3;
+    --text-color: hsl(240, 1%, 48%);
+  }
+
+.teams-title{
+    span{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--thm-primary);
+    position: relative;
+    }
+
+    h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.125;
+    padding: 15px 0px 20px;
+    }
+}
