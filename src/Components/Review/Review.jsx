@@ -35,9 +35,9 @@ const Review = () => {
     return (
         <section className='testimonals section'>
             <div className="secContainer container mx-auto">
-                <div className="secIntro flex justify-between">
+                <div className="secIntro block md:flex justify-between">
                     <div className="review-intro text-center relative">
-                        <p className='teams-watermark overflow-hidden'>Testimonals</p>
+                        <p className='teams-watermark text-[40px] md:text-[80px] lg:text-[100px]'>Testimonals</p>
                         <span>Testimonals</span>
                         <h2>Our customers have a lot to say <br />about our services.</h2>
                     </div>

@@ -42,7 +42,7 @@ const Navbar = () => {
             </span>
           </div>
 
-          <div onClick={() => setOpen(!open)} className='text-6xl text-[#FF6525] absolute right-8 top-14 cursor-pointer md:hidden'>
+          <div onClick={() => setOpen(!open)} className='text-4xl text-[#FF6525] absolute right-8 top-14 cursor-pointer md:hidden'>
             {open ? <IoIosCloseCircle /> : <LuMenu />}
           </div>
 

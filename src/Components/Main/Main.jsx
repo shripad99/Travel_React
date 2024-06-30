@@ -48,13 +48,13 @@ const Main = () => {
       <div className="secContainer">
         <div className="secHeader flex">
           <div className="section-title relative">
-            <p className="title-watermark">Activities</p>
+            <p className="title-watermark text-[60px] md:text-[80px] lg:text-[100px]">Activities</p>
             <span>Best Activites</span>
             <h2>Browse Featured Activities</h2>
           </div>
         </div>
 
-        <div className="mainContent grid grid-cols-1 md:grid-cols-4">
+        <div className="mainContent grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {Data.map(({ id, imgSrc, price1, price2, desTitle }) => {
             return (
               <div className="secCard">

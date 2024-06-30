@@ -66,7 +66,7 @@ const NewActivity = () => {
   return (
     <section className="activites section ">
       <div className="section-container container mx-auto">
-        <div className="section-header flex justify-between !flex-row">
+        <div className="section-header block lg:flex justify-between !flex-row">
           <div className="new-activity-title">
             <span>Newest Activites</span>
             <h2>Check out the latest activities <br />added to our directory </h2>

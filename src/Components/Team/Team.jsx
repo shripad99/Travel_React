@@ -51,7 +51,7 @@ const Team = () => {
     return (
         <section className='teams section container mx-auto'>
             <div className="secContainer">
-                <div className="teams-intro flex justify-between">
+                <div className="teams-intro block lg:flex justify-between">
                     <div className="teams-title text-start">
                         <span className='text-sm'>Our Teams</span>
                         <h2>Meet Our Professional Team<br />To Guide You Best</h2>
