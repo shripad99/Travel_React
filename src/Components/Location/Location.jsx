@@ -36,7 +36,7 @@ const LocData = [
 
 const Location = () => {
   return (
-    <section className="location container mx-auto">
+    <section className="location max-w-7xl mx-auto">
       <div className="secContainer">
         <div className="secIntro flex">
           <div className="secTitle">

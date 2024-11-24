@@ -62,9 +62,9 @@ const ActivData = [
 const Activities = () => {
   return (
     <section className="activities">
-      <div className="container mx-auto">
+      <div className="mx-auto max-w-7xl">
         <div className="featured-intro">
-          <div className="featured-title text-start">
+          <div className="featured-title text-center lg:!text-start">
             <span>Most Viewed Activities</span>
             <h2>
               Some of the activities that <br />

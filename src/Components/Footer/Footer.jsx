@@ -5,9 +5,11 @@ import footer2 from '../../Assets/footer2.jpg'
 import footer3 from '../../Assets/footer3.jpg'
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer class="pt-50 footer-section bg-[#000a1f]">
-      <div class="container px-5 py-24 mx-auto flex md:!items-center lg:!items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="max-w-7xl px-5 py-24 mx-auto flex md:!items-center lg:!items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img src='https://themes.ongoingthemes.com/gootravel/assets/img/logo/logo1.png' className='icon' alt="logo"/>
@@ -136,9 +138,9 @@ const Footer = () => {
         </div>
       </div>
       <div class="bg-[#000a1f]">
-        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Shripad T —
-            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+        <div class="max-w-7xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-500 text-sm text-center sm:text-left">© {year} Shripad T —
+            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">All Rights Reserved</a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a class="text-gray-500">

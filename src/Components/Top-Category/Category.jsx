@@ -55,7 +55,7 @@ const CategoryData = [
 const Category = () => {
   return (
     <section className="category-section-2">
-      <div className="container mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="category-title text-center relative mb-5">
           <p className="title-watermark text-[60px] md:text-[80px] lg:text-[100px]">Categories</p>
           <span>Top Categories</span>

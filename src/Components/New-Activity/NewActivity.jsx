@@ -65,13 +65,13 @@ const NewActivity = () => {
 
   return (
     <section className="activites section ">
-      <div className="section-container container mx-auto">
-        <div className="section-header block lg:flex justify-between !flex-row">
-          <div className="new-activity-title">
+      <div className="section-container max-w-7xl mx-auto">
+        <div className="section-header block lg:flex justify-center lg:justify-between !flex-row">
+          <div className="new-activity-title text-center lg:text-start">
             <span>Newest Activites</span>
             <h2>Check out the latest activities <br />added to our directory </h2>
           </div>
-          <div className="section-slider flex">
+          <div className="section-slider flex justify-center">
             <button className="flex items-center px-5" onClick={() => swiperRef.current?.slidePrev()}>
               <FaArrowLeft />
             </button>

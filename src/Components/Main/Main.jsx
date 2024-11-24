@@ -44,7 +44,7 @@ const Data = [
 
 const Main = () => {
   return (
-    <section className="activites-3 section container mx-auto">
+    <section className="activites-3 section max-w-7xl mx-auto">
       <div className="secContainer">
         <div className="secHeader flex">
           <div className="section-title relative">

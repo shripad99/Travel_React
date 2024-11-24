@@ -34,7 +34,7 @@ const Review = () => {
 
     return (
         <section className='testimonals section'>
-            <div className="secContainer container mx-auto">
+            <div className="secContainer max-w-7xl mx-auto">
                 <div className="secIntro block md:flex justify-between">
                     <div className="review-intro text-center relative">
                         <p className='teams-watermark text-[40px] md:text-[80px] lg:text-[100px]'>Testimonals</p>
